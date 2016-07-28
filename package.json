@@ -5,7 +5,7 @@
   "author": "https://github.com/angular-ui/ui-ace/graphs/contributors",
   "license": "MIT",
   "homepage": "http://angular-ui.github.com",
-  "main": "./ui-ace.js",
+  "main": "./dist/ui-ace.js",
   "dependencies": {
     "ace-builds": "^1.2.2",
     "angular": "^1.5.8"
