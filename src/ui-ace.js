@@ -3,7 +3,7 @@
 /**
  * Binds a ACE Editor widget
  */
-angular.module('ui.ace', [])
+angular.module('uiace', [])
   .constant('uiAceConfig', {})
   .directive('uiAce', ['uiAceConfig', function (uiAceConfig) {
 
@@ -326,3 +326,8 @@ angular.module('ui.ace', [])
       }
     };
   }]);
+
+if (typeof module === 'object') {
+  module.exports='uiace';
+}
+

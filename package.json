@@ -6,7 +6,10 @@
   "license": "MIT",
   "homepage": "http://angular-ui.github.com",
   "main": "./ui-ace.js",
-  "dependencies": {},
+  "dependencies": {
+    "ace-builds": "^1.2.2",
+    "angular": "^1.5.8"
+  },
   "devDependencies": {
     "angular-ui-publisher": "~1.x",
     "grunt": "~0.4.5",
